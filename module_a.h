@@ -3,10 +3,10 @@
 
 #include "module_interface.h"  // Contains ModuleInterface definition and register_module()
 
-void moduleA_soft_reset(int id);
-void moduleA_init_start(int id);
-void moduleA_init_done(int id);
+void module_a_soft_reset(int id);
+void module_a_init_start(int id);
+void module_a_init_done(int id);
 
-extern ModuleInterface moduleA;
+extern ModuleInterface module_a;
 
 #endif

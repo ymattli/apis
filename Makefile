@@ -12,7 +12,7 @@ $(LIB): $(MODULE_OBJS)
 %.o: %.c
 	$(CC) $(CFLAGS) -fPIC -c $< -o $@
 
-test_apis.o: test_apis.c top_api.h $(MODULES:.c=.h) module_interface.h
+test_apis.o: test_apis.c top_api.h
 	$(CC) $(CFLAGS) -c test_apis.c -o test_apis.o
 
 test_apis: test_apis.o $(LIB)
