@@ -6,3 +6,5 @@
 void module_a_soft_reset(int id) { printf("module_a[%d]: soft_reset\n", id); }
 void module_a_init_start(int id) { printf("module_a[%d]: init_start\n", id); }
 void module_a_init_done(int id)  { printf("module_a[%d]: init_done\n", id); }
+
+void module_a_csr_test(int id) { printf("module_a[%d]: csr_test\n", id); }

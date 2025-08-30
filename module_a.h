@@ -6,6 +6,7 @@
 void module_a_soft_reset(int id);
 void module_a_init_start(int id);
 void module_a_init_done(int id);
+void module_a_csr_test(int id);
 
 extern ModuleInterface module_a;
 
